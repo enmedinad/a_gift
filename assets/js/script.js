@@ -122,7 +122,7 @@ function createIconRain() {
 
         // Crear un elemento de imagen
         const imgElement = document.createElement('img');
-        imgElement.src = 'assets_ignore/img/cinamonrolluwu.png';  // Reemplaza con la ruta a la imagen
+        imgElement.src = 'assets/img/cinamonrolluwu.png';  // Reemplaza con la ruta a la imagen
         imgElement.alt = 'Cinamonroll';  // Texto alternativo por accesibilidad
         imgElement.style.width = '60px';  // Ajusta el tamaño de la imagen
 
