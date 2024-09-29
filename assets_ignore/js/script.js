@@ -1,5 +1,5 @@
 // Cargar palabras desde JSON
-fetch('../assets_ignore/palabras.json')
+fetch('assets_ignore/palabras.json')
     .then(response => response.json())
     .then(data => createWordElements(data));
 
@@ -71,7 +71,7 @@ function moveWords() {
 }
 
 
-fetch('../assets_ignore/palabras.json')
+fetch('assets_ignore/palabras.json')
     .then(response => response.json())
     .then(data => {
         // Aquí se puede inicializar el movimiento inicial de palabras
